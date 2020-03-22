@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { ConferenceRoom } from '@voxeet/react-components'
+import ActionsButtons from './components/ActionsButtons';
 
 class Conference extends Component {
     handleOnConnect = () => {
@@ -33,7 +34,7 @@ class Conference extends Component {
         return (
             <ConferenceRoom
                 attendeesChat={() => null}
-                actionsButtons={() => null}
+                actionsButtons={ActionsButtons}
                 isWidget={false}
                 autoJoin
                 kickOnHangUp

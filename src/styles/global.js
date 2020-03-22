@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import voxeet from "./css/voxeet";
 
 export default createGlobalStyle`
     * {
@@ -36,4 +37,5 @@ export default createGlobalStyle`
     p {
         margin: 0;
     }
+    ${voxeet}
 `
