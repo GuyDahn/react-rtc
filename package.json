@@ -7,7 +7,7 @@
     "@voxeet/react-components": "^2.0.0",
     "@voxeet/voxeet-web-sdk": "^2.1.1",
     "animated": "^0.2.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.1",
     "formik": "^2.1.4",
     "keycode": "^2.2.0",
